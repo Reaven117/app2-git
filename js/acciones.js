@@ -1,5 +1,4 @@
-//JavaScript Document
-
+// JavaScript Document
 $(document).ready(function(e){
 document.addEventListener ("deviceready",function(){
  $('#disp table td').eq(3).text(device.model);
@@ -30,4 +29,3 @@ escribehistoria ('la app se desconecto de la red');
 function escribehistoria(accion){
   $('#eHistoria').append('<li>'+accion+'</li>');
 }
-
